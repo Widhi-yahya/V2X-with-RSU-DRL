@@ -1,0 +1,7 @@
+# of times made by NN: 8000, average decision time: 0.0024510876033455135 sec
+Total numbers of reward: 101
+Convergence step: 68, value: 0.8149304227642932
+Convergence time: 6623.766866579186 sec
+Minimum reward step: 82, value: 0.6205390658675021
+Average training time: 6.6303972638430295 sec, total: 999
+Training done in 6900.913893784862
