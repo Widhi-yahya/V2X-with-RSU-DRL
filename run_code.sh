@@ -3,19 +3,19 @@
 # Run TD3.py 3 times
 for i in {1..3}; do
   echo "Running TD3.py, iteration $i"
-  python TD3_V2X_V4.py
+  python TD3.py
 done
 
 # Run SAC.py 3 times
 for i in {1..3}; do
   echo "Running SAC.py, iteration $i"
-  python SAC4.py
+  python SAC.py
 done
 
 # Run TRPO.py 3 times
 for i in {1..3}; do
   echo "Running TRPO.py, iteration $i"
-  python3 TRPObufferv31.py
+  python3 TRPO.py
 done
 
 # Run DDPG.py 3 times
