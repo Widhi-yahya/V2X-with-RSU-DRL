@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun 23 20:31:09 2024
+Created on Sun Jun 23 20:31:09 2024 updated v2
 
 @author: widhi
 """
