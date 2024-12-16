@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun 23 20:31:09 2024 updated v2
-
-@author: widhi
+TD3 Algorithm Implementation
+Author: widhi
 """
 
 #!/usr/bin/env python
@@ -24,12 +23,19 @@ from sklearn import preprocessing
 import copy
 import matplotlib.pyplot as plt
 
-# Experience Replay memory
 class ReplayBuffer(object):
-    def __init__(self, max_size=5000):
+    """
+    Experience Replay memory central for storing and sampling experiences.
+    """
+    def __init__(self, max_size: int = 5000):
+        """
+        Initialize the replay buffer.
+
+        Parameters:
+        max_size (int): Maximum number of experiences to store in the buffer.
+        """
         self.storage = []
         self.max_size = max_size
-        self.ptr = 0
 
     def add(self, transition):
         if len(self.storage) == self.max_size:
